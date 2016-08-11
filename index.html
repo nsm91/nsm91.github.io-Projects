@@ -58,13 +58,16 @@
                 <p>In this exercise we created a model to facilitate a mailing list based on resident proximity to user selected streets.
                 The size of the buffer, where the mailing list would be saved to, and what it would be named were all user defined
                 parameters.</p>
+                <form method="get" action="MyModels.tbx">
+                    <button class="btn btn-dark">Check it out</button>
+		</form>
              </div>
 		</div>
 		<!-----Section 2 ---->
 					<hr>
 		<div class="row">
             <div class="col-lg-12">
-                <h1 id="section_2"><small>Higher Detail and Information at Magnified Scales</small></h1>
+                <h1 id="section_2"><small>Arcpy Python Scripting</small></h1>
             </div>
         </div>
         <!-- /.row -->
@@ -74,26 +77,19 @@
 
             <div class="col-md-8">
 				<a href="http://gdurl.com/UnB1">
-                <img class="img-responsive" src="http://gdurl.com/UnB1" height=500px width=750px alt="">
+                <img class="img-responsive" src="py.png" height=500px width=750px alt="">
 				</a>
             </div>
 
             <div class="col-md-4">
-                <h2><small>Goals</small></h2>
-                <p>At zoomed in scales the parcels polygons no longer experience geometry simplifications. Additionally, the street 
-				polygon layer is now rendered, allowing for accurate interpretations of right-of-way distances off the curb. 
-				Underneath this polygon layer is the still invisible polyline street layer, but yet, the polyline labels do become visible. 
-				These labels are the largest and are buffered so as to always stand out. Parcel labels 
-				containing street addresses are visible at this scale too, however labels for tree species still are not. Note also that small red 
-				dots are now visible, denoting historic locations for trees - important for inventory verification.
-				</p>
+                <h2><small>Purpose</small></h2>
+                <p>Utilizing "for" loops to facilitate batch processing, we created a script to handle multiple operations to 
+                multiple feature classes all at once. This exponentially quicker than doing it manually, and can be replicated
+                across multiple users.</p>
                 <h2><small>Highlights</small></h2>
-                <ul>
-                    <li>Scale Dependent Renderings</li>
-                    <li>"Overlapping" Streets</li>
-                    <li>Scale Dependent Labeling</li>
-                    <li>Historic Trees Visible</li>
-                </ul>
+                <form method="get" action="project.py">
+                    <button class="btn btn-dark">Check it out</button>
+		</form>
             </div>
 			
         </div>
